@@ -26,7 +26,7 @@ function draw(){
     rect(30,60,450,350);
 
     fill(' #0000FF ');
-    text('Cat',45,50);
+    text('Cat',320,120);
     noFill();
     stroke(' #0000FF ');
     rect(300,90,270,320);
