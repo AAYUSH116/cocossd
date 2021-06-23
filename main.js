@@ -24,11 +24,11 @@ function draw(){
 for(i=0; i<objects.length;i++){
 document.getElementById("status").innerHTML="Status: object detected";
 
-fill('#FF0000');
+fill('#0000FF');
 percent=floor(objects[i].confidence*100);
 text(objects[i].label+""+percent+"%",objects[i].x,objects[i].y);
 noFill();
-stroke("#FF0000");
+stroke("#0000FF");
 rect(objects[i].x,objects[i].y,objects[i].width,objects[i].height);
 }
     }
